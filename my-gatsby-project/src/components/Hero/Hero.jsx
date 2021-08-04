@@ -30,13 +30,14 @@ const Header = () => {
       id="hero"
       className="jumbotron"
     >
-      <Container id="hero-container">
+      {/* id="hero-container" == for border */}
+      <Container>
         {/*  */}
         {/* <div style={{ 
       backgroundImage: "url(/boyandball.png)", min-height: 'auto', min-width: '600em'}} >
       </div> */}
 
-        <Row className="about-wrapper">
+        <Row className="about-wrapper hero-border">
           <Col md={6} sm={12} id="hero-content">
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
               <h1 className="hero-title">
@@ -58,7 +59,7 @@ const Header = () => {
             </Fade>
           </Col>
           <Col md={6} sm={12} id="hero-img">
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade top duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="boy kicking ball" filename={img} />
               </div>

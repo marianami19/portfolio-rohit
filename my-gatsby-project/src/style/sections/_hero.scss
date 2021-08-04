@@ -1,6 +1,6 @@
 #hero {
   min-height: 100vh;
-  height: 100vh;
+  // height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
@@ -32,13 +32,19 @@
   #hero-content {
     background-color: black;
     padding: 25px;
-    border-radius: 10px;
   }
 
   #hero-img {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+  }
+
+  .hero-border {
+    border: 3px double;
+    @include respond(phone) {
+      border: 0px;
+    }
   }
 
   .hero-title {

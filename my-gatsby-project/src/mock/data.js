@@ -19,9 +19,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'ragging.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I am a Roti.',
+  paragraphTwo: 'It is my birthday today and',
+  paragraphThree: 'my sister is the best!',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,28 +29,37 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project1.jpg',
+    title: 'Chess Simulation',
+    info: 'Modern attempt to revolutionarize chess',
+    info2: '3D graphics to spice up the game',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project1 (2).jpg',
+    title: 'Sims CopyCat',
+    info: 'Cause Roti likes to copy',
+    info2: 'The sims The Roti Way',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project1 (3).jpg',
+    title: 'Miney Crafty',
+    info: 'User Experience at its finest',
+    info2: 'Interesting Stuff',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project1 (4).jpg',
+    title: 'Something Cool',
+    info: 'to spice up the website',
+    info2: 'I hope you liked it Roti',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
