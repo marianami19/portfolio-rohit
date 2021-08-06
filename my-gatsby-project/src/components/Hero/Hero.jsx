@@ -23,10 +23,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section
-      id="hero"
-      className="jumbotron"
-    >
+    <section id="hero" className="jumbotron">
       {/* id="hero-container" == for border */}
       <Container>
         {/*  */}
