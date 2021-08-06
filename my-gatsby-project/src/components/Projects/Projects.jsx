@@ -24,9 +24,6 @@ const Projects = () => {
 
   return (
     <section
-      style={{
-        backgroundImage: 'url(/GrassyBackground.jpg)',
-      }}
       id="projects"
     >
       <Container>

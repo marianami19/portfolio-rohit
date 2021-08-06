@@ -24,9 +24,6 @@ const Header = () => {
 
   return (
     <section
-      style={{
-        backgroundImage: 'url(/GrassyBackground.jpg)',
-      }}
       id="hero"
       className="jumbotron"
     >
